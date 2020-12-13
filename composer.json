@@ -1,0 +1,19 @@
+{
+    "name": "jeff/composer1",
+    "description": "quest wcs composer",
+    "authors": [
+        {
+            "name": "JeffNys",
+            "email": "sxb.jeanfrancois.nys@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"src",
+            "HelloWorld\\":"vendor/ehime/hello-world/src"
+        }
+    },
+    "require": {
+        "ehime/hello-world": "^1.0"
+    }
+}
